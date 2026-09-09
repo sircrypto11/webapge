@@ -63,4 +63,17 @@ form.addEventListener('submit', function(event) {
     for (let i = 1; i <= 5; i++) {
         quote.innerHTML += "<p>Believe in yourself and keep going!</p>";
     }
-});
+})
+//arrow functions
+let multiplication = () =>{
+
+}
+
+greetings(registration())
+
+function greetings(name="Guest"){
+    console.log(`welcome to the Stag ${name}`)
+    console.log("We are happy to meet you", name, "Stay for as long as you want")
+}
+greetings("Mary")
+greetings()
